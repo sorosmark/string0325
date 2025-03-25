@@ -19,14 +19,22 @@ for (betu of sz1)
         console.log(betu);
     }
 
-    console.log(sz + sz1);
-    console.log(sz + " " + sz1);
-    console.log(`${sz} ${sz1}`);
+console.log(sz + sz1);
+console.log(sz + " " + sz1);
+console.log(`${sz} ${sz1}`);
 
-    let szovegosszefuzes = sz.concat(" ",  sz1);
-    console.log(szovegosszefuzes);
+let szovegosszefuzes = sz.concat(" ",  sz1);
+console.log(szovegosszefuzes);
     
-    console.log(sz1.charAt(4));
-    console.log(sz1.charCodeAt(4));
+console.log(sz1.charAt(4));
+console.log(sz1.charCodeAt(4));
 
 console.log(sz1.startsWith("M"));
+
+let hello = "Hello vilag";
+console.log(hello.endsWith("vilag"));
+console.log(hello.startsWith("vilag"));
+
+let szam = "10";
+console.log(szam.padEnd(5, "0"));
+console.log(szam.padStart(5, "0"));
